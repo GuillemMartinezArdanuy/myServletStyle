@@ -1,0 +1,5 @@
+1;pomes;3;cad;01/02/2020;si
+2;cadira;100;;;si
+3;tomaquets;4;cad;03/04/2020;si
+4;taula;500;;;no
+5;televisor;2000;;;no

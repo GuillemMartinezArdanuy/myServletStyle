@@ -1,0 +1,22 @@
+
+Generalitat de CatalunyaDepartament d’EducacióPàgina 1de 12º DAW –M07Programació web en entorn servidorExamenUF1 iUF2
+
+Una cadena de botigues vol fer un programa per gestionar els productes que hi ha als seus magatzems.
+Als magatzems hi guarda productes de dos tipus, els que són de proximitati els que no.Es demana que:
+
+- creeu una pàgina d'inici on hi hagi un menú on tindrem els enllaços a la resta de pàgines.
+- creeu una pàgina mostri un llistat amb elnom de tots els productesal carregar-se.
+ A part del llistat, aquesta pàgina ha de tenir un formulari amb tresradiobuttonson puguem triar
+ si volem veure tots els productes, només els que caduqueno només els que no caduquen.
+
+- Si es selecciona un productede la llista,
+s'ha de mostrar una altra pàgina amb tota la informació del producte en un formulari,
+ però el preu del producte no és el que hi ha a la base de dades.
+ Si el producte és de proximitat se li ha de restar un 10% al preu
+ i si no és de proximitat se li ha de sumar un 15%.
+
+ Tots els fitxers són CSVi els camps estan separats per ';'.
+
+ L'estructura dels fitxers és la següent:
+  - Productes:id, nom, preu, tipus, data_caducitat, producte_proximitat.
+  -Magatzems_productes: id_matazem, id_producte, quantitat.
